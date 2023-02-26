@@ -19,6 +19,7 @@ img {
 
 button {
   cursor: pointer;
+  font-size: 16px;
 }
 
 #datetime-picker {
@@ -27,11 +28,8 @@ button {
   font-size: 16px;
 }
 
-#datetime-picker ~ button {
-  font-size: 16px;
-}
 
-.timer {
+.timer, .wrapper {
   display: flex;
   gap: 20px;
   
@@ -48,4 +46,8 @@ button {
 .label {
   font-size: 14px;
   text-transform: uppercase;
+}
+
+.wrapper {
+justify-content: center;
 }
